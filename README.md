@@ -8,4 +8,4 @@
 - 支持广告过滤
 - 支持数据导入Grafana
 
-根据[Jasper-1024/mosdns_docker](https://github.com/Jasper-1024/mosdns_docker/tree/master/mosdns_v5) 进行二次修改
+根据[Jasper-1024/mosdns_docker](https://github.com/Jasper-1024/mosdns_docker/tree/master/mosdns_v5) 进行二次修改，在此基础上增加GFW域名远程解析规则，修改并发请求DNS连接数
