@@ -49,13 +49,13 @@ plugins:
   - tag: dns_nocn_seq
     type: sequence
     args:
-      - exec: query_summary forward_remote
+      - exec: query_summary dns_nocn
       - exec: $dns_nocn
 
   - tag: dns_cn_seq
     type: sequence
     args:
-      - exec: query_summary forward_local
+      - exec: query_summary dns_cn
       - exec: $dns_cn
 
   - tag: local_seq
