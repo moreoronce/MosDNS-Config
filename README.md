@@ -21,6 +21,7 @@
 下载或克隆三个yaml文件，OpenWRT放到`/etc/mosdns`文件夹内。如果是luci-app-mosdns，需要选择使用自定义配置文件。其他系统可以通过`-c` 参数指定配置文件为`config_custom.yaml` 。
 
 默认GeoSite和GeoIP的存放位置为`/var/mosdns/` ,请确保文件夹下含有`geoip_cn.txt`、`geosite_category-ads-all.txt`、`geosite_geolocation-!cn.txt`、`geosite_gfw.txt`、`geosite_cn.txt`以及`geoip_private.txt` ，OpenWRT用户可以通过luci-app-mosdns的GeoData Export功能自动下载解码生成。
+同时，在/etc/mosdns/下需要建立rule文件夹，并新建whitelist.txt和greylist.txt文件，用于自定义白名单和污染域名名单。DDNS类域名可放到白名单中。
 
 # DNS处理流程：
 
