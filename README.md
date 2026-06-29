@@ -32,6 +32,8 @@
 
 教程及DNS处理队列详解：[自用MosDNS规则分享](https://deeprouter.org/article/mosdns-config-with-no-leak)
 
+---
+
 <p align="center">
   <a href="https://x.com/moreoronce">
     <img src="https://img.shields.io/badge/X-Follow_@moreoronce-black?style=for-the-badge&logo=x&logoColor=white" height="40" alt="X @moreoronce">
